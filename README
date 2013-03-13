@@ -1,0 +1,8 @@
+Linux/FreeBSD daemon i wrote a long time ago. As far as i know it detects all of port scan methods (including SYN scan and UDP scan). Easy to use, configurable, user-friendly etc etc.
+
+Features:
+	- executes "ban command" specified in .conf file
+	- allows to specify number of scans to tolerate from one IP
+	- writes log to syslog/stdio
+	- whitelist
+	- uid/gid (rawsock used, access to firewall on FreeBSD is needed)
