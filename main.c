@@ -35,7 +35,7 @@ int main( int argc, char **argv ) {
 
 	} else {
 		print_help();
-		// return 0;
+		return 0;
 	}
 
 	parse_config( pss_config_path, (struct pss_config_vars *)&pss_configuration );
